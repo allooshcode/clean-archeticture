@@ -1,4 +1,5 @@
 import 'package:clean_archeticture/core/utils/app_colors.dart';
+import 'package:clean_archeticture/core/utils/media_query_values.dart';
 import 'package:flutter/material.dart';
 
 class QouteScreen extends StatelessWidget {
@@ -9,10 +10,13 @@ class QouteScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Center(
-        child: Text(
-          'qoute',
-          style: TextStyle(fontSize: 25, color: AppColor.hint),
+      body: Center(
+        child: SizedBox(
+          width: context.width,
+          child: const Text(
+            'qoute',
+            style: TextStyle(fontSize: 25, color: AppColor.hint),
+          ),
         ),
       ),
     );
