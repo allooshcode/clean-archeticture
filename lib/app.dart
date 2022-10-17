@@ -1,5 +1,3 @@
-import 'package:clean_archeticture/core/utils/app_colors.dart';
-import 'package:clean_archeticture/core/utils/hex_color.dart';
 import 'package:flutter/material.dart';
 
 import 'config/themes/app_theme.dart';

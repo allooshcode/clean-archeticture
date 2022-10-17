@@ -2,7 +2,6 @@ import 'package:equatable/equatable.dart';
 
 class RandomQoate extends Equatable {
   final String contect;
-
   final int id;
   final String auther;
   final String permalink;
